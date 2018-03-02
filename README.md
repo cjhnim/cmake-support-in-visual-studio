@@ -40,5 +40,6 @@ $ cmake -E capabilities
 * Click add and enter "localhost" for the hostname and your wSL user/password.
 
 # 4. check out this repository and just open those folder on visual studio 2017
+![image](https://user-images.githubusercontent.com/12405424/36878635-4090d418-1e03-11e8-9101-d90780b8ba13.png)
 
 # 5. Now you can build the sources using cmake on Windows Subsystem Linux.
