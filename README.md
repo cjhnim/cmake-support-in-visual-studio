@@ -2,14 +2,14 @@
 
 ## 1. Install Windows Subsystem Linux and download build essential tools.
 *[Summary]*  
-0. Install WSL - https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
-1. $ sudo apt install -y build-essential
-2. $ sudo apt install -y gdbserver
-3. $ sudo apt install -y openssh-server
-4. $ sudo nano /etc/ssh/sshd_config
-5. Scroll down the “PasswordAuthentication” setting and make sure it’s set to “yes”:
-6. $ sudo ssh-keygen -A
-7. $ sudo service ssh start
+1. Install WSL - https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
+2. $ sudo apt install -y build-essential
+3. $ sudo apt install -y gdbserver
+4. $ sudo apt install -y openssh-server
+6. $ sudo nano /etc/ssh/sshd_config
+7. Scroll down the “PasswordAuthentication” setting and make sure it’s set to “yes”:
+8. $ sudo ssh-keygen -A
+9. $ sudo service ssh start
 
 If you want to know more explanation, refer to folloing link.   
 https://blogs.msdn.microsoft.com/vcblog/2017/02/08/targeting-windows-subsystem-for-linux-from-visual-studio/
