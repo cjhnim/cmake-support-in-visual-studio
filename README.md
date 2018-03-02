@@ -1,9 +1,7 @@
 # Build cmake project on Windows Subsystem Linux 
 
 ## 1. Install Windows Subsystem Linux and download build essential tools.
-
-[Summary]
-
+*[Summary]*  
 0. Install WSL - https://msdn.microsoft.com/en-us/commandline/wsl/install_guide
 1. $ sudo apt install -y build-essential
 2. $ sudo apt install -y gdbserver
@@ -19,13 +17,12 @@ https://blogs.msdn.microsoft.com/vcblog/2017/02/08/targeting-windows-subsystem-f
 ## 2. Download source and build CMake 3.9.0
 CMake version is 3.5 on Windows Subsystem Ubuntu 16.04. So you have to download source and build CMake 3.9.0.
 
-[Summary]  
-
-Download lateset cmkae using apt-get  
+*[Summary]*    
+*Download lateset cmkae using apt-get*    
 $ sudo apt-get update  
 $ sudo apt-get install -y git cmake
 
-Download source and build cmake  
+*Download source and build cmake*  
 $ git clone https://github.com/Kitware/CMake.git  
 $ cd CMake  
 $ git checkout tags/v3.9.0  
