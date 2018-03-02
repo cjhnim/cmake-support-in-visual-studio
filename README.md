@@ -13,7 +13,7 @@
 6. $ sudo ssh-keygen -A
 7. $ sudo service ssh start
 
-If you want to know more explanation, refer to folloing link.
+If you want to know more explanation, refer to folloing link. 
 https://blogs.msdn.microsoft.com/vcblog/2017/02/08/targeting-windows-subsystem-for-linux-from-visual-studio/
 
 # 2. Download source and build CMake 3.9.0
