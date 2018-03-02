@@ -43,5 +43,5 @@ $ cmake -E capabilities
 ![image](https://user-images.githubusercontent.com/12405424/36878635-4090d418-1e03-11e8-9101-d90780b8ba13.png)
 
 # 5. Now you can build the sources using cmake on Windows Subsystem Linux.
-![image](https://user-images.githubusercontent.com/12405424/36878690-737f6524-1e03-11e8-97a8-75ed0e9b6049.png)
+![image](https://user-images.githubusercontent.com/12405424/36878690-737f6524-1e03-11e8-97a8-75ed0e9b6049.png)  
 ![image](https://user-images.githubusercontent.com/12405424/36878699-825cbac4-1e03-11e8-9815-db20f5830689.png)
