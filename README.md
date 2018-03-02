@@ -20,8 +20,12 @@ https://blogs.msdn.microsoft.com/vcblog/2017/02/08/targeting-windows-subsystem-f
 CMake version is 3.5 on Windows Subsystem Ubuntu 16.04. So you have to download source and build CMake 3.9.0.
 
 [Summary]  
+
+Download lateset cmkae using apt-get  
 $ sudo apt-get update  
-$ sudo apt-get install -y git cmake  
+$ sudo apt-get install -y git cmake
+
+Download source and build cmake  
 $ git clone https://github.com/Kitware/CMake.git  
 $ cd CMake  
 $ git checkout tags/v3.9.0  
@@ -31,7 +35,9 @@ $ cmake ../
 $ make  
 $ sudo make install  
 $ /usr/local/bin/cmake –version  
-$ cmake -E capabilities  
+$ cmake -E capabilities
+
+refer to : https://docs.microsoft.com/ko-kr/cpp/linux/cmake-linux-project
 
 # 3. Install & configure Visual Studio 2017
 1. Be sure to select the Visual C++ for Linux workload during the installation  process.
